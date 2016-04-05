@@ -1,0 +1,27 @@
+/* line 1, ../sass/karty.scss */
+.c:before {
+  margin-right: 10px;
+}
+
+/* line 3, ../sass/karty.scss */
+.piki:before {
+  content: "\2660";
+  /* dobavlaem pered abzacem simvol piki */
+}
+
+/* line 6, ../sass/karty.scss */
+.trefy:before {
+  content: "\2663";
+}
+
+/* line 9, ../sass/karty.scss */
+.bubny:before {
+  content: "\2665";
+  color: #FF0000;
+}
+
+/* line 13, ../sass/karty.scss */
+.chervy:before {
+  content: "\2666";
+  color: #FF0000;
+}

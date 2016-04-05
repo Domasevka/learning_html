@@ -1,0 +1,14 @@
+/* line 1, ../sass/spisok.scss */
+ol {
+  list-style-type: upper-roman;
+}
+
+/* line 4, ../sass/spisok.scss */
+ol ul {
+  list-style-type: disc;
+}
+
+/* line 7, ../sass/spisok.scss */
+span {
+  font-weight: 600;
+}

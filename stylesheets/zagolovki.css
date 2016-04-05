@@ -1,0 +1,20 @@
+/* line 1, ../sass/zagolovki.scss */
+body {
+  background-color: #dedeca;
+}
+
+/* line 4, ../sass/zagolovki.scss */
+h1 {
+  font-family: Calibri, sans-serif;
+  color: #630;
+}
+
+/* line 8, ../sass/zagolovki.scss */
+h3 {
+  color: #996633;
+}
+
+/* line 11, ../sass/zagolovki.scss */
+a {
+  color: #008000;
+}

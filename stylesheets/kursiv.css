@@ -1,0 +1,17 @@
+/* line 1, ../sass/kursiv.scss */
+.kursiv {
+  font-style: italic;
+  font-size: 160%;
+}
+
+/* line 5, ../sass/kursiv.scss */
+.kursiv sub, .kursiv sup {
+  font-style: normal;
+  font-size: 60%;
+  color: #0000FF;
+}
+
+/* line 10, ../sass/kursiv.scss */
+.kursiv sup {
+  color: #FF0000;
+}
