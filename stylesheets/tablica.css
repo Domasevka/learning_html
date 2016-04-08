@@ -1,0 +1,41 @@
+/* line 2, ../sass/tablica.scss */
+table {
+  border: 1px solid black;
+  /*ramka vokrug tablicy*/
+  table-layout: fixed;
+  width: 100%;
+  border-spacing: 2px 2px;
+  /*rasstojanie mezhdu jachejkami*/
+}
+
+/* line 8, ../sass/tablica.scss */
+td {
+  border: 1px solid black;
+  padding: 3px;
+  border-width: 2px 1px 1px 2px;
+}
+
+/* line 13, ../sass/tablica.scss */
+.col1 {
+  width: 40%;
+}
+
+/* line 16, ../sass/tablica.scss */
+.coln {
+  width: 20%;
+}
+
+/* line 19, ../sass/tablica.scss */
+caption {
+  caption-side: top;
+}
+
+/* line 22, ../sass/tablica.scss */
+.align, .god {
+  text-align: center;
+}
+
+/* line 25, ../sass/tablica.scss */
+.god {
+  font-weight: 600;
+}

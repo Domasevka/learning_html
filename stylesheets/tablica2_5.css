@@ -1,0 +1,51 @@
+/* line 1, ../sass/tablica2_5.scss */
+body {
+  background: #001646;
+  color: #ffffff;
+  font: 14px Verdana;
+  margin: 0;
+}
+
+/* line 8, ../sass/tablica2_5.scss */
+section {
+  font-family: Arial;
+  width: 970px;
+  margin: 0 auto;
+}
+
+/* line 13, ../sass/tablica2_5.scss */
+header {
+  height: 120px;
+  margin-top: 120px;
+  text-align: left;
+}
+
+/* line 18, ../sass/tablica2_5.scss */
+aside {
+  float: left;
+  /* discard action float*/
+  width: 200px;
+  padding-left: 5px;
+  background: url(image/hand.png) black;
+  font-weight: 500;
+  font-size: 12pt;
+  font-family: Arial;
+}
+
+/* line 28, ../sass/tablica2_5.scss */
+article {
+  background: black;
+  padding: 40px 5px;
+  text-align: justify;
+  width: 760px;
+  margin-left: 200px;
+}
+
+/* line 36, ../sass/tablica2_5.scss */
+footer {
+  background: #103898;
+  clear: both;
+  font-size: 12pt;
+  text-align: center;
+  padding: 5px;
+}

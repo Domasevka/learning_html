@@ -1,0 +1,43 @@
+body {
+   background: #001646;
+   color: #ffffff;
+   font: 14px Verdana;
+   margin: 0;
+   }
+   
+section {
+   font-family: Arial;
+   width: 970px;  
+   margin: 0 auto;
+   }
+header {
+   height: 120px;
+   margin-top: 120px;
+   text-align: left; 
+  }
+aside {   
+   float: left; /* discard action float*/
+   width: 200px;   
+   padding-left: 5px;
+   background: url(image/hand.png) black;
+   font-weight: 500;
+   font-size: 12pt;
+   font-family: Arial;
+   }   
+   
+article {
+   background: black;
+   padding: 40px 5px;
+   text-align: justify;
+   width: 760px;
+   margin-left: 200px;
+   }
+
+footer {
+   background: #103898;
+   clear: both;
+   font-size: 12pt;   
+   text-align: center;
+   padding: 5px;       
+   }
+   

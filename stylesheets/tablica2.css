@@ -1,0 +1,67 @@
+/* line 1, ../sass/tablica2.scss */
+body {
+  background: #001646;
+  margin: 0;
+}
+
+/* line 6, ../sass/tablica2.scss */
+.table1 {
+  font-family: Arial;
+  width: 970px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+/* line 12, ../sass/tablica2.scss */
+.align1 {
+  height: 280px;
+  text-align: left;
+}
+
+/* line 16, ../sass/tablica2.scss */
+.align2 {
+  background: black;
+  color: #ffffff;
+}
+
+/* line 21, ../sass/tablica2.scss */
+.table2 {
+  width: 100%;
+  border: 0;
+}
+
+/* line 25, ../sass/tablica2.scss */
+.align3 {
+  height: 30px;
+  background: url(image/hand.png);
+  font-weight: 600;
+  font-size: 12pt;
+  padding-left: 3px;
+}
+
+/* line 33, ../sass/tablica2.scss */
+.align4 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  padding: 5px;
+  color: #ffffff;
+  text-align: justify;
+  width: 770px;
+}
+
+/* line 41, ../sass/tablica2.scss */
+p {
+  text-align: justify;
+}
+
+/* line 44, ../sass/tablica2.scss */
+.align5 {
+  height: 20px;
+}
+
+/* line 48, ../sass/tablica2.scss */
+.align6 {
+  text-align: center;
+  background: #103898;
+  color: #ffffff;
+}

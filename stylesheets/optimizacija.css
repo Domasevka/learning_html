@@ -1,0 +1,36 @@
+/* line 4, ../sass/optimizacija.scss */
+a:link {
+  text-decoration: none;
+  /* remove underlining from links */
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #3A681A;
+}
+
+/* line 9, ../sass/optimizacija.scss */
+a:hover {
+  color: #5CA22E;
+}
+
+/* line 12, ../sass/optimizacija.scss */
+a:active {
+  color: #DC0000;
+  text-decoration: underline;
+  /* Adding underline on mouseover link */
+}
+
+/* line 16, ../sass/optimizacija.scss */
+.pole2, .pole, a:link {
+  font-size: 11px;
+}
+
+/* line 19, ../sass/optimizacija.scss */
+.pole2, .pole {
+  background-color: #E7F2D7;
+  border: 1px solid #008000;
+  height: 17px;
+}
+
+/* line 24, ../sass/optimizacija.scss */
+.pole {
+  width: 95px;
+}

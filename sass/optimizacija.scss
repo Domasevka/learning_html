@@ -1,0 +1,27 @@
+$font-stack: Verdana, Arial, Helvetica, sans-serif;
+$primary-size: 11px;
+
+a:link {
+  text-decoration: none; /* remove underlining from links */
+  font-family: $font-stack;
+  color: #3A681A;    
+  }
+a:hover {
+  color: #5CA22E;
+  }
+a:active {
+  color: #DC0000;  
+  text-decoration: underline;  /* Adding underline on mouseover link */
+}
+.pole2, a:link {
+  font-size: $primary-size;
+}
+.pole2 {
+  background-color: #E7F2D7;
+  border: 1px solid #008000;    
+  height: 17px;
+}
+.pole {
+  @extend .pole2;
+  width: 95px;
+}
