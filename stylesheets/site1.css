@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* line 1, ../sass/site1.scss */
+body {
+  font: 10pt Arial, Helvetica, sans-serif;
+  /* ╨и╤А╨╕╤Д╤В ╨╜╨░ ╨▓╨╡╨▒-╤Б╤В╤А╨░╨╜╨╕╤Ж╨╡ */
+  background: #fff;
+  /* ╨ж╨▓╨╡╤В ╤Д╨╛╨╜╨░ */
+  margin: 0;
+  /* ╨г╨▒╨╕╤А╨░╨╡╨╝ ╨╛╤В╤Б╤В╤Г╨┐╤Л */
+}
+
+/* line 6, ../sass/site1.scss */
+h1, h2 {
+  color: #737083;
+  /* ╨ж╨▓╨╡╤В ╤В╨╡╨║╤Б╤В╨░ */
+  margin: 0;
+  /* ╨Ю╤В╤Б╤В╤Г╨┐ ╤Б╨╜╨╕╨╖╤Г */
+}
+
+/* line 10, ../sass/site1.scss */
+header {
+  background: #ccc;
+  /* background color */
+  color: #666;
+  /* ╨ж╨▓╨╡╤В ╤В╨╡╨║╤Б╤В╨░ */
+  padding: 5px;
+  /* ╨Ю╤В╤Б╤В╤Г╨┐╤Л ╨▓╨╛╨║╤А╤Г╨│ ╤В╨╡╨║╤Б╤В╨░ */
+  position: relative;
+  /* ╨Ю╤В╨╜╨╛╤Б╨╕╤В╨╡╨╗╤М╨╜╨╛╨╡ ╨┐╨╛╨╖╨╕╤Ж╨╕╨╛╨╜╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ */
+  text-align: center;
+}
+
+/* line 17, ../sass/site1.scss */
+.all {
+  width: 1206px;
+  /* ╨и╨╕╤А╨╕╨╜╨░ ╨╝╨░╨║╨╡╤В╨░ */
+  margin: 0 auto;
+  /* ╨Т╤Л╤А╨░╨▓╨╜╨╕╨▓╨░╨╡╨╝ ╨┐╨╛ ╤Ж╨╡╨╜╤В╤А╤Г */
+  position: relative;
+  /* ╨Ю╤В╨╜╨╛╤Б╨╕╤В╨╡╨╗╤М╨╜╨╛╨╡ ╨┐╨╛╨╖╨╕╤Ж╨╕╨╛╨╜╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ */
+}
+
+/* line 22, ../sass/site1.scss */
+article {
+  margin-right: 130px;
+  /* ╨Ю╤В╤Б╤В╤Г╨┐ ╤Б╨┐╤А╨░╨▓╨░ */
+  padding: 10px;
+  /* ╨Я╨╛╨╗╤П ╨▓╨╛╨║╤А╤Г╨│ ╤В╨╡╨║╤Б╤В╨░ */
+  border-right: 1px dashed #183533;
+  /* ╨Ы╨╕╨╜╨╕╤П ╤Б╨┐╤А╨░╨▓╨░ */
+}
+
+/* line 27, ../sass/site1.scss */
+article p {
+  margin-top: 0.3em;
+  /* ╨Ю╤В╤Б╤В╤Г╨┐ ╤Б╨▓╨╡╤А╤Е╤Г */
+}
+
+/* line 30, ../sass/site1.scss */
+.footer_columns_width {
+  color: #fff;
+  width: 1206px;
+  height: 200px;
+  background: #33363b;
+  /* ╨ж╨▓╨╡╤В ╤Д╨╛╨╜╨░ */
+  color: #fff;
+  /* text color */
+  display: block;
+}
+
+/* line 38, ../sass/site1.scss */
+.footer_column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  /* ╨Ю╤В╤Б╤В╤Г╨┐╤Л ╨▓╨╛╨║╤А╤Г╨│ ╤В╨╡╨║╤Б╤В╨░ */
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+/* line 45, ../sass/site1.scss */
+.footer__column-icons {
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+/* line 49, ../sass/site1.scss */
+.footer__column-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 6px 10px 0;
+}
+
+/* line 54, ../sass/site1.scss */
+.footer__social-item_ok {
+  background-image: url(../images/site1/icon_f.png);
+  width: 27px;
+  height: 27px;
+}
+
+/* line 60, ../sass/site1.scss */
+.copyright {
+  background: #202022;
+  /* background color */
+  color: #737083;
+  /* text color */
+  padding: 5px 50px;
+  /* padding around text */
+  text-align: right;
+}
+
+/* line 66, ../sass/site1.scss */
+.link_footer {
+  text-decoration: none;
+  color: #fff;
+}

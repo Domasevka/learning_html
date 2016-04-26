@@ -1,51 +1,47 @@
-/* line 1, ../sass/tablica2_5.scss */
+/* line 4, ../sass/tablica2_5.scss */
 body {
   background: #001646;
-  color: #ffffff;
-  font: 14px Verdana;
+  color: #fff;
   margin: 0;
 }
 
-/* line 8, ../sass/tablica2_5.scss */
+/* line 10, ../sass/tablica2_5.scss */
+header {
+  height: 270px;
+  text-align: left;
+  background: #001646;
+}
+
+/* line 16, ../sass/tablica2_5.scss */
 section {
-  font-family: Arial;
+  background: #000;
+  font-family: Arial, Helvetica, sans-serif;
   width: 970px;
   margin: 0 auto;
 }
 
-/* line 13, ../sass/tablica2_5.scss */
-header {
-  height: 120px;
-  margin-top: 120px;
-  text-align: left;
-}
-
-/* line 18, ../sass/tablica2_5.scss */
+/* line 23, ../sass/tablica2_5.scss */
 aside {
+  background: url(image/hand.png);
+  font-weight: 700;
   float: left;
   /* discard action float*/
-  width: 200px;
   padding-left: 5px;
-  background: url(image/hand.png) black;
-  font-weight: 500;
-  font-size: 12pt;
-  font-family: Arial;
 }
 
-/* line 28, ../sass/tablica2_5.scss */
+/* line 30, ../sass/tablica2_5.scss */
 article {
-  background: black;
-  padding: 40px 5px;
-  text-align: justify;
-  width: 760px;
+  font-family: Verdana;
+  font-size: 10pt;
   margin-left: 200px;
+  padding: 45px 5px;
+  text-align: justify;
 }
 
-/* line 36, ../sass/tablica2_5.scss */
+/* line 38, ../sass/tablica2_5.scss */
 footer {
   background: #103898;
   clear: both;
-  font-size: 12pt;
   text-align: center;
   padding: 5px;
 }

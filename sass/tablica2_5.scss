@@ -1,42 +1,43 @@
+$font-stack: Arial, Helvetica, sans-serif;;
+$primary-color: #001646;
+$secondary-color: #000;
 body {
-   background: #001646;
-   color: #ffffff;
-   font: 14px Verdana;
+   background: $primary-color;
+   color: #fff;
    margin: 0;
    }
    
+header {
+   height: 270px;
+   text-align: left;
+   background: $primary-color;   
+   }
+  
 section {
-   font-family: Arial;
+   background: $secondary-color;
+   font-family: $font-stack;
    width: 970px;  
    margin: 0 auto;
    }
-header {
-   height: 120px;
-   margin-top: 120px;
-   text-align: left; 
-  }
-aside {   
+
+aside { 
+   background: url(image/hand.png);
+   font-weight: 700;
    float: left; /* discard action float*/
-   width: 200px;   
-   padding-left: 5px;
-   background: url(image/hand.png) black;
-   font-weight: 500;
-   font-size: 12pt;
-   font-family: Arial;
+   padding-left: 5px;   
    }   
    
 article {
-   background: black;
-   padding: 40px 5px;
-   text-align: justify;
-   width: 760px;
-   margin-left: 200px;
+   font-family: Verdana;
+   font-size: 10pt;
+   margin-left: 200px;   
+   padding: 45px 5px;
+   text-align: justify;  
    }
 
 footer {
    background: #103898;
    clear: both;
-   font-size: 12pt;   
    text-align: center;
    padding: 5px;       
    }
