@@ -55,8 +55,8 @@
 	   <div class="form_wrapper">
 	    <form class="navigation_item">
 		<button class="navigation_button button2"></button>
-	     <input type="text" name="specialty" placeholder="Специальность">		 
-	    </form>
+	     <input type="text" name="specialty" placeholder="Специальность" class="placeholder">
+		</form>
 	    <form class="navigation_item">
 		 <button class="navigation_button button3"></button>
 	     <input type="text" name="place" placeholder="Выберите город">
@@ -64,6 +64,23 @@
 	    <form class="navigation_item">
 		 <button class="navigation_button button4"></button>
 	     <input type="text" name="location" placeholder="Уточните район">
+		 <div class="dropdown">
+		  <div class="multifilter-list-new">
+             <li class="multifilter-item-new">
+			 <span class="checkbox" data-index="0" data-section="colors">
+			  <i class="checkbox__tick"></i>
+			  <input type="checkbox" class="checkbox__native value="647" id="checkbox_colors_0">
+			  </span>
+			  <label class="multifilter-item-new__label multifilter-item-new__label_647" for="checkbox_colors_0">
+			  Любые районы/метро
+			  </label>
+			 </li>
+             <option value="Чебурашка">Авиамоторная</option>
+             <option selected value="Крокодил Гена">Автозаводская</option>
+             <option value="Шапокляк">Академическая</option>
+             <option value="Крыса Лариса">Александровский</option>
+            </div>
+         </div>
 	    </form>
 	    <form class="navigation_item">
 	     <input type="submit" name="submit" value="Подобрать" class="submit">	
