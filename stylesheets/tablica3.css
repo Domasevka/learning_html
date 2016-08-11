@@ -1,0 +1,28 @@
+/* line 1, ../sass/tablica3.scss */
+section {
+  width: 600px;
+  /* width layout */
+  margin: 0 auto;
+  /* Is centered */
+  background: #FCE600;
+  /* Color column */
+}
+
+/* line 6, ../sass/tablica3.scss */
+aside {
+  float: left;
+  text-align: center;
+  width: 450px;
+}
+
+/* line 11, ../sass/tablica3.scss */
+nav {
+  text-align: center;
+  float: left;
+  width: 150px;
+}
+
+/* line 16, ../sass/tablica3.scss */
+p {
+  border: 1px black;
+}

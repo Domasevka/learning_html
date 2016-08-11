@@ -1,0 +1,24 @@
+/* line 1, ../sass/formy2.scss */
+input:focus {
+  color: #FF0000;
+}
+
+/* line 4, ../sass/formy2.scss */
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+/* line 5, ../sass/formy2.scss */
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+
+/* line 6, ../sass/formy2.scss */
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+
+/* line 7, ../sass/formy2.scss */
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}

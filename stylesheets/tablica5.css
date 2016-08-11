@@ -1,0 +1,6 @@
+/* line 1, ../sass/tablica5.scss */
+table {
+  width: 200px;
+  border: 1;
+  word-break: break-all;
+}

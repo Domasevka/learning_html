@@ -1,0 +1,46 @@
+/* line 1, ../sass/batarejka.scss */
+section {
+  width: 320px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 7, ../sass/batarejka.scss */
+figure {
+  border: 4px solid black;
+  display: flex;
+  height: 80px;
+}
+
+/* line 12, ../sass/batarejka.scss */
+.one {
+  background: #f00;
+  width: 80px;
+}
+
+/* line 16, ../sass/batarejka.scss */
+.two {
+  background: #fc0;
+  width: 160px;
+}
+
+/* line 20, ../sass/batarejka.scss */
+.three {
+  background: #090;
+  width: 240px;
+}
+
+/* line 24, ../sass/batarejka.scss */
+aside {
+  position: absolute;
+  right: 30px;
+  top: -50px;
+}
+
+/* line 30, ../sass/batarejka.scss */
+.four {
+  background: #000;
+  height: 30px;
+  margin: 76px 0px;
+  width: 10px;
+}

@@ -1,0 +1,17 @@
+/* line 1, ../sass/otstupy.scss */
+body, h1, p {
+  margin: 0;
+}
+
+/* line 4, ../sass/otstupy.scss */
+h1 {
+  background: #569099;
+  padding: 10px;
+  color: #fff;
+}
+
+/* line 10, ../sass/otstupy.scss */
+p {
+  background: #cad8d0;
+  padding: 10px;
+}

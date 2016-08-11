@@ -1,0 +1,14 @@
+body {
+   margin: 0;
+  }
+h1 {
+    background: #569099;
+    padding: 10px;
+    color: #fff;
+	@extend body;
+   }
+p {
+    background: #cad8d0;
+    padding: 10px;
+	@extend body;
+   }

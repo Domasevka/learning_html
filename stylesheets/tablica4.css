@@ -1,0 +1,28 @@
+/* line 1, ../sass/tablica4.scss */
+table {
+  border-spacing: 0 0;
+  width: 100%;
+}
+
+/* line 5, ../sass/tablica4.scss */
+td {
+  padding: 5px;
+}
+
+/* line 8, ../sass/tablica4.scss */
+td.col {
+  background: #ff0000;
+  color: #fff;
+}
+
+/* line 12, ../sass/tablica4.scss */
+td.col1 {
+  background: #ff9900;
+  color: #666;
+}
+
+/* line 16, ../sass/tablica4.scss */
+td.col2 {
+  background: #ffff00;
+  color: #000;
+}

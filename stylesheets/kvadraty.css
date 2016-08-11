@@ -1,0 +1,31 @@
+/* line 1, ../sass/kvadraty.scss */
+figure {
+  display: flex;
+  width: 450px;
+  margin: 0 auto;
+}
+
+/* line 6, ../sass/kvadraty.scss */
+p {
+  color: #333;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 11, ../sass/kvadraty.scss */
+nav {
+  background: black;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+}
+
+/* line 16, ../sass/kvadraty.scss */
+nav.blue {
+  background: #09c;
+}
+
+/* line 19, ../sass/kvadraty.scss */
+nav:hover {
+  background: #f90;
+}

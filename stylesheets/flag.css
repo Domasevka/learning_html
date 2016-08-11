@@ -1,0 +1,20 @@
+/* line 1, ../sass/flag.scss */
+.flex-container {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #333;
+  display: flex;
+  padding: 40px 90px;
+}
+
+/* line 8, ../sass/flag.scss */
+.flex-container nav {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+/* line 12, ../sass/flag.scss */
+.red {
+  background: red;
+}
