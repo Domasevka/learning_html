@@ -1,10 +1,10 @@
-@import 'bourbon'; // http://bourbon.io/
+@import 'bourbon/bourbon'; // http://bourbon.io/
 
 @import '../partials/variables'; // colors, fonts etc...
 
 @import '../partials/layout'; // responsive grid and media queries
 
-*, *::after, *::before {
+/*---------  *, *::after, *::before {
 	@include box-sizing(border-box);
 }
 
@@ -32,8 +32,7 @@ a {
 }
 
 section {
-	/* used just to separate paginations */
-	border-bottom: 1px solid darken($color-3, 10%);
+	
 
 	h2 {
 		width: 90%;
@@ -48,7 +47,7 @@ section {
 			margin: 4em auto 0;
 		}
 	}
-}
+}-------------- /*
 
 /* -------------------------------- 
 
@@ -81,8 +80,8 @@ nav[role="navigation"] {
 		display: inline-block;
 		@include user-select(none);
 		/* use padding and font-size to change buttons size */
-		padding: .6em .8em;
-		font-size: 1.6rem;
+		padding: .13em .4em;
+		font-size: 1.2rem;
 	}
 
 	a {
@@ -90,7 +89,8 @@ nav[role="navigation"] {
 		border-radius: $border-radius;
 
 		.no-touch &:hover {
-			background-color: darken($color-3, 5%);
+			background-color: darken($color-4, 5%);
+			color: $color-3;
 		}
 
 		&:active {
@@ -132,7 +132,7 @@ nav[role="navigation"] {
 	}
 
 	@include MQ(L) {
-		margin: 4em auto 8em;
+		margin: 4em auto 5.6em;
 	}
 }
 
